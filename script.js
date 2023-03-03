@@ -14,7 +14,7 @@ function currentTime() {
         session = "PM";
      }
   
-     hh = (hh < 10) ? "0" + hh : hh - "12";
+     hh = (hh < 10) ? "0" + hh : hh - 12;
      mm = (mm < 10) ? "0" + mm : mm;
      ss = (ss < 10) ? "0" + ss : ss;
       
